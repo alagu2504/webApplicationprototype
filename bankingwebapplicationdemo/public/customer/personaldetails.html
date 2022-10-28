@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+    border: 3px solid black;
+  border-collapse: collapse;
+}
+th, tr,td{
+padding: 20px;
+}
+</style>
+<head>
+<meta charset="UTF-8">
+<title>Customer Details</title>
+</head>
+<body>
+ <iframe src="/home/inc10/incubationkkdi/task4/bankingwebapplicationdemo/public/customer/customermenu.html" style="height:900px;width:300px;float:left;" title="menu"></iframe>
+
+<h2  style="text-align:center">Peronal Info</h2>
+ <div></div>
+ 
+<table class="center">
+  <tr>
+    <th>Name :</th>
+    <td><input type="text" id="name" name="name" value="Alaguraj" ></td>
+  </tr>
+  <tr>
+    <th>Date of Birth :</th>  
+    <td><input type="date" id="dateofbirth" name="dateofbirth" value="2001-04-25" readonly ></td>
+  </tr>
+  <tr>
+    <th>Mobile Number :</th>  
+    <td><input type="number" id="mobilenumber" name="mobilenumber" value=9685442745 ></td>
+  </tr><tr>
+    <th>Address :</th>  
+    <td><input type="text" id="address" name="address" value="Karaikudi" ></td>
+  </tr><tr>
+    <th>Email Id :</th>  
+    <td><input type="email" id="emailid" name="emailid" value="alagu@zoho.com" ></td>
+  </tr><tr>
+    <th>Aadhaar Number :</th>  
+    <td><input type="number" id="aadhaarnumber" name="aadhaarnumber" value="96854751248756354" readonly ></td>
+  </tr><tr>
+    <th>Pan Number :</th>  
+    <td><input type="text" id="pannumber" name="pannumber" value="MKSDS4567E" readonly ></td>
+  </tr>
+</table>
+<div style="text-align:center;margin-top:20px;">
+<button type="submit">Save</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<style>
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+th, tr,td{
+padding: 20px;
+}
+</style>
+<head>
+<meta charset="UTF-8">
+<title>Add New Account</title>
+</head>
+<body>
+ <iframe src="/home/inc10/incubationkkdi/task4/bankingwebapplicationdemo/public/admin/adminmenu.html" style="height:900px;width:300px;float:left;" title="menu"></iframe>
+
+<h2  style="text-align:center">ADD NEW ACCOUNT</h2>
+ <div></div>
+ 
+<table class="center">
+  <tr>
+    <th>Account Number :</th>
+    <td><input type="number" id="accno" name="accno" placeholder="Enter Account Number" ></td>
+  </tr>
+  <tr>
+    <th>Account Type :</th>  
+    <td><input type="text" id="acctype" name="acctype" placeholder="Enter Account Type" ></td>
+  </tr>
+  <tr>
+    <th>Ifsc Code :</th>  
+    <td><input type="text" id="ifsccode" name="ifsccode" placeholder="Enter Ifsc Code" ></td>
+  </tr><tr>
+    <th>Branch Name :</th>  
+    <td><input type="text" id="branchname" name="branchname" placeholder="Enter Branch Name" ></td>
+  </tr><tr>
+    <th>Balance :</th>  
+    <td><input type="number" id="balance" name="balance" placeholder="balance" ></td>
+  </tr><tr>
+  </tr><tr>
+    <th>Aadhaar card Number :</th>  
+    <td><input type="number" id="aadhaarno" name="aadhaarno" placeholder="Enter Aadhaar Number" ></td>
+  </tr><tr>
+  </tr><tr>
+    <th>Pan Card Number :</th>  
+    <td><input type="text" id="pan_no" name="pan_no" placeholder="Enter Pan Card Number" ></td>
+  </tr><tr>
+    <th>Status :</th>  
+    <td>
+<select name="status" id="status">
+  <option value="Active">Active</option>
+  <option value="Inactive">Inactive</option>
+  <option value="Blocked">Blocked</option>
+</select></td>
+  </tr><tr>
+    <th>Role :</th>  
+    <td><select name="role" id="role">
+  <option value="Customer">Customer</option>
+  <option value="Admin">Admin</option>
+</select></td>
+  </tr>
+</table>
+<div style="text-align:center;margin-top:20px;">
+<button type="submit">Save</button>
+</div>
+</body>
+</html>
